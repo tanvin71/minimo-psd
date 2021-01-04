@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Ubuntu:wght@500;700&display=swap');
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part css start */
+header{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    
+}
+.logo img{
+
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav ul li{
+    
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+/* header part css end */
+/* banner part css start */
+.banner {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.banner img {
+    width: 100%;
+}
+
+/* banner part css end */
+/* photodiary part css start */
+.photodiary{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.photodiary h5 {
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 30px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+.photodiary h1 {
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.photodiary p {
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.8;
+
+}
+/* photodiary part css end */
+
+/* lifestyle part css start */
+.lifestyle {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.lifestyle-one {
+    width: 48%;
+}
+.lifestyle img  {
+    width: 100%;
+}
+.lifestyle h5 {
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 30px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+.lifestyle h1 {
+    color: #626262;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.lifestyle p {
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.8;
+}
+
+/* lifestyle part css end */
+
+
+/* newsletter part css start */
+.newsletter{
+    background: #f0f0f0;
+    padding: 80px 0;
+    margin-bottom: 80px;
+
+}
+.news {
+    width: 360px;
+    margin: auto;
+    position: relative;
+   
+}
+.news h1 {
+    color: #333333;
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.news input {
+    margin-top: 50px;
+    border: none;
+    width: 360px;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+}
+.news input::placeholder {
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.send {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+.send img {
+
+}
+
+
+/* newsletter part css end */
+
+/* loadmore part css start */
+.load {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.load-more {
+
+}
+.load-more input {
+    background: transparent;
+    border: none;
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+}
+input[type="button"] {
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+
+/* loadmore part css end */
+
+/* footer part css start */
+footer {
+    background: #f0f0f0;
+    padding: 30px 0;
+
+}
+.footer-content{
+    width: 80%;
+    margin:  auto;
+    justify-content: space-between;
+    display: flex;
+}
+.terms {
+    width: 20%;
+}
+.terms ul{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.terms ul li{
+    list-style: none;
+}
+.terms ul li a{
+   text-decoration: none; 
+   color: #000000;
+   font-family: 'Playfair Display', serif;
+}
+
+.icon {
+    width: 10%;
+
+}
+.icon ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon ul li{
+    list-style: none;
+}
+
+.icon ul li a {
+    text-decoration: none;
+    color: #626262;
+    font-family: 'Playfair Display', serif; 
+}
+.icon ul li a i{
+    
+}
+
+
+
+
+/* footer part css end */
